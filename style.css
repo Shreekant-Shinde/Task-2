@@ -1,0 +1,29 @@
+.div{
+    background-color: lightgrey;
+    padding: 20px;
+}
+.mandatory{
+    color: red;
+    font-weight: bold;
+}
+.tip{
+    cursor: default;
+    font-size: 22px;
+    text-align: left;
+    font-style: oblique;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
